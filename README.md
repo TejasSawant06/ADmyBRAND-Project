@@ -47,29 +47,19 @@ git clone https://github.com/yourusername/admybrand-dashboard.git
 cd admybrand-dashboard
 
 2️⃣ Install dependencies
-bash
-Copy
-Edit
+
 npm install
 
 3️⃣ Setup shadcn/ui
 If starting from scratch:
 
-bash
-Copy
-Edit
 npx shadcn-ui init
 Add required components:
 
-bash
-Copy
-Edit
 npx shadcn-ui add card button table input select dropdown-menu switch skeleton popover
 
 4️⃣ Run the development server
-bash
-Copy
-Edit
+
 npm run dev
 Then open http://localhost:3000
 
